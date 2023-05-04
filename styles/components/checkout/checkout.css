@@ -1,0 +1,115 @@
+  
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:25px;
+    min-height: 100vh;
+    border-radius: 6px;
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+  }
+  
+  span{
+    font-weight: 500;
+    user-select: none;
+  }
+
+  input::placeholder{
+    font-weight: 500;
+    color: var(--clr-dark);
+  }
+
+  input::placeholder:focus{
+    display: none;
+  }
+
+  .container form{
+    padding:20px;
+    width:800px;
+    border-radius: 6px;
+    background: var(--clr-background);
+    filter: drop-shadow(1.75px 2.5px 3px var(--clr-dark));
+  }
+  
+  .container form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+  }
+  
+  .container form .row .col{
+    flex:1 1 250px;
+  }
+  
+  .container form .row .col .title{
+    font-size: 20px;
+    color: var(--clr-dark);
+    padding-bottom: 5px;
+    text-align: center;
+    font-weight: 700;
+    border-bottom: 2px solid var(--clr-dark);
+    margin-bottom: 1rem;
+  }
+  
+  .container form .row .col .inputBox{
+    margin:15px 0;
+  }
+  
+  .container form .row .col .inputBox span{
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .container form .row .col .inputBox input{
+    width: 100%;
+    border:1px solid var(--clr-dark);
+    padding:10px 15px;
+    font-size: 1em;
+    border-radius: 6px;
+    text-transform: none;
+  }
+
+  .container form .row .col .inputBox input::target-text{
+    color: var(--clr-dark);
+    font-size: 1em;
+  }
+
+  .container form .row .col .inputBox input::content{
+    border: 1px solid var(--clr-dark);
+    border-radius: 6px;
+  }
+    
+  .container form .row .col .flex{
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .container form .row .col .flex .inputBox{
+    margin-top: 0px;
+  }
+  
+  .container form .row .col .inputBox img{
+    height: 2rem;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+
+  
+  .container form .submit-btn{
+    width: 100%;
+    color: var(--clr-dark);
+    font-family: inherit;
+    font-size: 1em;
+    font-weight: 600;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border: 2px solid var(--clr-dark);
+    border-radius: 10px;
+    transition: 0.5s ease;
+  }
+  
+  .container form .submit-btn:hover{
+    color: var(--clr-light);
+    background-color: var(--clr-dark);
+  }

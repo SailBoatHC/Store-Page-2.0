@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/components/header.css">
+    <link rel="stylesheet" href="../styles/components/header2.css">
+    <link rel="stylesheet" href="../styles/components/prpage/pr.css">
+    <link rel="stylesheet" href="../styles/components/p-c.css">
+    <link rel="stylesheet" href="../styles/components/footer.css">
+    <link rel="stylesheet" href="../styles/utils.css">
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+</head>
+<body>
+    <!--Header Section-->
+    <header class="header">
+      <nav class="header__nav">
+        <li class="header__list"><a class="header__link" href="../index.html">Home</a></li>
+        <li class="header__list"><a class="header__link" href="#Shop">Shop</a></li>
+        <li class="header__list"><a class="header__link" href="#Contact">Contact</a></li>
+        <li class="header__list"><a class="header__link" href="#About">About</a></li>
+      </nav>
+        <button id="theme-toggle" class="header__sun">Light/Dark</button>
+        <button class="header__bars">Navbar</button>
+    </header>
+    <!--End Of Header Section-->
+
+    <!--Product Section-->
+    <div class="product-container">
+      <div class="primg-container">
+        <img class="productp__img" src="https://media.4rgos.it/i/Argos/1234806_R_Z001A?w=1500&h=880&qlt=70&fmt=webp" alt="Product">
+      </div>
+      <div class="product-ev">
+        <h2 class="product__name">Product</h2>
+        <p class="product__price">12.50$ &nbsp;&nbsp;<del class="product__price-orig">20.25$</del>&nbsp;&nbsp;&nbsp; 60% OFF</p>
+        <div class="sizes">
+          <h2 class="size__label">Sizes:</h2>
+          <button class="size__btn">Extra Small</button>
+          <button class="size__btn">Small</button>
+          <button class="size__btn">Medium</button>
+          <button class="size__btn">Large</button>
+          <button class="size__btn">Extra Large</button>
+        </div>
+        <div class="colors">
+          <h2 class="colors__label">Colors:</h2>
+          <button class="colors">Black</button>
+          <button class="colors">White</button>
+          <button class="colors">Blue</button>
+        </div>
+        <div class="product__buy-options">
+          <button class="addtocart">Add To Cart</button><br>
+          <button class="buynow">Buy Now</button>
+        </div>
+      </div>  
+    </div>
+
+
+    <!--Policies-Contact-->
+        <div class="policies-contact">
+            <div class="policies">
+                <h2 class="policies__main">Policies</h2>
+                <nav class="policies__nav">
+                     <ul class="policies__menu">
+                        <li class="policies__li"><a class="policies__link" href="#">Privacy Policy</a></li>
+                        <li class="policies__li"><a class="policies__link" href="#">Refund Policy</a></li>
+                        <li class="policies__li"><a class="policies__link" href="#">Shipping Policy</a></li>
+                        <li class="policies__li"><a class="policies__link" href="#">Terms Of Service</a></li>
+                     </ul>
+                </nav>
+            </div>
+        
+      <div id="Contact" class="contact">
+        <h2 class="contact__main">Contact Us</h2>
+        <p class="contact__text">Contact Me For Any Queries Or Commisions at <strong>lokeshchandrasaiyerukonda@gmail.com</strong> </p>  <p class="contact__text">Or Click This Button:</p>
+        <button class="contact__btn">Contact Us</button>
+      </div>
+    </div>
+    
+    <!--Footer Section-->
+    <footer class="footer">
+      <div class="footer__copyright">
+        <h2 class="fc__text">Copyright&copy; My Store 2000-2023</h2>
+      </div>
+    </footer>
+      <div class="footer-sig">
+        <p class="signature"><i>~LOKESH CHANDRA SAI~</i></p>
+      </div>
+      <script src="../src/utils/darkmode.js"></script>
+     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    </body>
+    </html>

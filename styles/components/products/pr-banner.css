@@ -1,0 +1,78 @@
+.background{
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    background: url('https://www.pixel4k.com/wp-content/uploads/2019/03/backlit-bright-pink-sunset-landscape-4k_1551643272.jpg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 475px;
+    margin-bottom: 3rem;
+}
+
+.banner{
+    background: transparent;
+}
+
+
+.banner__main{
+    background: transparent;
+    color: var(--clr-light);
+    font-weight: 600;
+    font-size: 3em;
+}
+
+/* 4xs */
+@media (min-width: 280px) {
+    .background{
+    margin-top: 0;
+    }
+}
+
+/* 3xs */
+@media (max-width: 320px) {
+    .banner__main{
+        font-size: 2.5em;
+    }
+}
+
+/* xxs */
+@media (min-width: 375px) {
+
+}
+
+/* xs */
+@media (min-width: 475px) {
+
+}
+
+/* s */
+@media (min-width: 640px) {
+    .background{
+        margin-top: 1rem;
+    }
+}
+
+/* m */
+@media (min-width: 768px) {
+
+}
+
+/* l */
+@media (min-width: 1024px) {
+
+}
+
+/* xl */
+@media (min-width: 1280px) {
+
+}
+
+/* xxl */
+@media (min-width: 1536px) {
+
+}

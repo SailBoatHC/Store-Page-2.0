@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome</title>
+  </head>
+  <body>
+    <!--Header Section-->
+   <div class="background">
+    <header class="header">
+      <nav class="header__nav">
+        <li class="header__list"><a class="header__link" href="#Home">Home</a></li>
+        <li class="header__list"><a class="header__link" href="#Shop">Shop</a></li>
+        <li class="header__list"><a class="header__link" href="#Contact">Contact</a></li>
+        <li class="header__list"><a class="header__link" href="#About">About</a></li>
+      </nav>
+        <button id="theme-toggle" class="header__sun">Light/Dark</button>
+        <button class="header__bars">Navbar</button>
+    </header>
+    <!--End Of Header Section-->
+
+    <!--Banner Section-->
+      <div class="banner">
+        <h2 class="banner__text">Welcome To Our Store</h2>
+        <button onclick="window.location.href='#Shop';" class="banner__btn">Shop Now</button>
+        <p class="padding"></p>
+      </div>
+    </div>
+    <!--End Of Banner Section-->
+
+    <!--About Section-->
+    <div id="About" class="about">
+      <button id="theme-toggle" class="header__sun2">Light/Dark</button>
+      <h2 class="about__main">About</h2>
+      <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nam delectus cum dicta perferendis nulla mollitia blanditiis saepe modi rem placeat nisi tempora debitis,sapiente optio ab quas facere accusamus.</p>
+      <img class="about__img" src="https://c1.wallpaperflare.com/preview/210/684/47/macedonia-sunset-dusk-lake.jpg" alt="About">
+    </div>
+    <!--End Of About Section-->
+
+    <!--Intermediate Section-->
+    <div class="int-section">
+      <h2 id="Shop" class="product__featured">Our Featured Products</h2>
+      <button onclick="window.location.href='./products/products.html';" class="product__btn">View All</button>
+    </div>
+
+    <!--Product Section-->
+    <div class="product-list">
+      <!--Product 1-->
+      <div onclick="window.location.href='./products/productpage.html'" class="product1">
+        <h2 class="product__name">Product 1</h2>
+        <img class="product__img" src="https://media.4rgos.it/i/Argos/1234806_R_Z001A?w=1500&h=880&qlt=70&fmt=webp" alt="Product1img">
+        <p class="product__price">12.50$</p>
+        <button onclick="window.location.href='./checkout/checkout.html';" class="buynow__btn">View</button>
+      </div>
+
+      <!--Product 2-->
+      <div onclick="window.location.href='./products/productpage.html'" class="product2">
+        <h2 class="product__name">Product 2</h2>
+        <img class="product__img" src="https://media.4rgos.it/i/Argos/1234806_R_Z001A?w=1500&h=880&qlt=70&fmt=webp" alt="Product1img">
+        <p class="product__price">12.50$</p>
+        <button onclick="window.location.href='./checkout/checkout.html';" class="buynow__btn">View</button>
+      </div>
+
+      <!--Product 3-->
+      <div onclick="window.location.href='./products/productpage.html'" class="product3">
+        <h2 class="product__name">Product 3</h2>
+        <img class="product__img" src="https://media.4rgos.it/i/Argos/1234806_R_Z001A?w=1500&h=880&qlt=70&fmt=webp" alt="Product1img">
+        <p class="product__price">12.50$</p>
+        <button onclick="window.location.href='./checkout/checkout.html';" class="buynow__btn">View
+        </button>
+      </div>    
+    </div>
+
+    <div class="checkout">
+    <button onclick="window.location.href='./checkout/checkout.html';" class="checkout">Checkout</button>
+    </div>
+
+    <!--Policies-Contact-->
+    <div class="policies-contact">
+      <div class="policies">
+        <h2 class="policies__main">Policies</h2>
+        <nav class="policies__nav">
+          <ul class="policies__menu">
+            <li class="policies__li"><a class="policies__link" href="#">Privacy Policy</a></li>
+            <li class="policies__li"><a class="policies__link" href="#">Refund Policy</a></li>
+            <li class="policies__li"><a class="policies__link" href="#">Shipping Policy</a></li>
+            <li class="policies__li"><a class="policies__link" href="#">Terms Of Service</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="Contact" class="contact">
+        <h2 class="contact__main">Contact Us</h2>
+        <p class="contact__text">Contact Me For Any Queries Or Commisions at <strong>lokeshchandrasaiyerukonda@gmail.com</strong> </p>  <p class="contact__text">Or Click This Button:</p>
+        <button class="contact__btn">Contact Us</button>
+      </div>
+    </div>
+
+    <!--Footer Section-->
+    <footer class="footer">
+      <div class="footer__copyright">
+        <h2 class="fc__text">Copyright&copy; My Store 2000-2023</h2>
+      </div>
+    </footer>
+      <div class="footer-sig">
+        <p class="signature"><i>~LOKESH CHANDRA SAI~</i></p>
+      </div>
+    <script type="module" src="src/mainpage.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </body>
+</html>

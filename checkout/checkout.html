@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/components/header.css">
+    <link rel="stylesheet" href="../styles/components/header2.css">
+    <link rel="stylesheet" href="../styles/components/checkout/checkout.css">
+    <link rel="stylesheet" href="../styles/components/p-c.css">
+    <link rel="stylesheet" href="../styles/components/footer.css">
+    <link rel="stylesheet" href="../styles/utils.css">
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+</head>
+<body>
+    <!--Header Section-->
+   <div class="background">
+    <header class="header">
+      <nav class="header__nav">
+        <li class="header__list"><a class="header__link" href="../index.html">Home</a></li>
+        <li class="header__list"><a class="header__link" href="#Shop">Shop</a></li>
+        <li class="header__list"><a class="header__link" href="#Contact">Contact</a></li>
+        <li class="header__list"><a class="header__link" href="#About">About</a></li>
+      </nav>
+        <button id="theme-toggle" class="header__sun">Light/Dark</button>
+        <button class="header__bars">Navbar</button>
+    </header>
+    <!--End Of Header Section-->
+    
+    <!--Checkout Section-->
+    <div class="container">
+
+    <form action="">
+
+        <div class="row">
+
+            <div class="col">
+
+                <h3 class="title">Billing Address</h3>
+
+                <div class="inputBox">
+                    <span>Full Name</span>
+                    <input type="text" placeholder="John Doe">
+                </div>
+                <div class="inputBox">
+                    <span>Email</span>
+                    <input type="email" placeholder="example@gmail.com">
+                </div>
+                <div class="inputBox">
+                    <span>Address</span>
+                    <input type="text" placeholder="Floor - Street - Locality">
+                </div>
+                <div class="inputBox">
+                    <span>City</span>
+                    <input type="text" placeholder="Mumbai">
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>State</span>
+                        <input type="text" placeholder="State">
+                    </div>
+                    <div class="inputBox">
+                        <span>Zip Code</span>
+                        <input type="text" placeholder="Zip Code">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col">
+
+                <h3 class="title">Payment</h3>
+
+                <div class="inputBox">
+                    <span>Accepted Cards</span>
+                    <img src="../card_img.png" alt="">
+                </div>
+                <div class="inputBox">
+                    <span>Name On Card</span>
+                    <input type="text" placeholder="John Doe">
+                </div>
+                <div class="inputBox">
+                    <span>Credit/Debit Number</span>
+                    <input type="text" placeholder="1111-2222-3333-4444">
+                </div>
+                <div class="inputBox">
+                    <span>Expiry Month</span>
+                    <input type="text" placeholder="MM">
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>Expiry Year</span>
+                        <input type="number" placeholder="2026">
+                    </div>
+                    <div class="inputBox">
+                        <span>CVV</span>
+                        <input type="text" placeholder="CVV">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <input type="submit" value="Buy Now" class="submit-btn">
+    </form>
+</div>    
+<!--End Of Checkout Section-->
+
+<!--Policies-Contact-->
+<div class="policies-contact">
+  <div class="policies">
+    <h2 class="policies__main">Policies</h2>
+    <nav class="policies__nav">
+      <ul class="policies__menu">
+        <li class="policies__li"><a class="policies__link" href="#">Privacy Policy</a></li>
+        <li class="policies__li"><a class="policies__link" href="#">Refund Policy</a></li>
+        <li class="policies__li"><a class="policies__link" href="#">Shipping Policy</a></li>
+        <li class="policies__li"><a class="policies__link" href="#">Terms Of Service</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div id="Contact" class="contact">
+    <h2 class="contact__main">Contact Us</h2>
+    <p class="contact__text">Contact Me For Any Queries Or Commisions at <strong>example@gmail.com</strong> </p>  <p class="contact__text">Or Click This Button:</p>
+    <button class="contact__btn">Contact Us</button>
+  </div>
+</div>
+
+<!--Footer Section-->
+<footer class="footer">
+  <div class="footer__copyright">
+    <h2 class="fc__text">Copyright&copy; My Store 2000-2023</h2>
+  </div>
+</footer>
+  <div class="footer-sig">
+    <p class="signature"><i>~LOKESH CHANDRA SAI~</i></p>
+  </div>
+
+  <script src="../src/utils/darkmode.js"></script>
+ <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+.policies-contact{
+    border-top: 2px solid var(--clr-dark);
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.policies{
+    margin-right: 1rem;
+    background: transparent;
+}
+
+.policies__main{
+    font-weight: 700;
+    font-size: 1.75rem;
+    margin-bottom: 0.75rem;
+    background: transparent;
+}
+
+.policies__li{
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__main{
+    font-size: 1.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.contact__text{
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.contact__btn{
+    margin-top: 0.5rem;
+}
+
+
+/* 4xs */
+@media (min-width: 280px) {
+    .policies-contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .policies__li{
+        margin-bottom: 1rem;
+    }
+
+    .contact__text{
+        font-size: 0.75em;
+    }
+}
+
+/* 3xs */
+@media (min-width: 320px) {
+    .contact__text{
+        font-size: 0.9em;
+    }
+}
+
+/* xxs */
+@media (min-width: 375px) {
+
+}
+
+/* xs */
+@media (min-width: 475px) {
+    .contact__text{
+        text-align: center;
+    }
+}
+
+/* s */
+@media (min-width: 640px) {
+
+}
+
+/* m */
+@media (min-width: 768px) {
+
+}
+
+/* l */
+@media (min-width: 1024px) {
+    .policies-contact{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .policies-contact{
+        border-top: 2px solid var(--clr-dark);
+        padding: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    
+    .policies{
+        margin-right: 1rem;
+        background: transparent;
+    }
+    
+    .policies__main{
+        font-weight: 700;
+        font-size: 1.75rem;
+        margin-bottom: 0.75rem;
+        background: transparent;
+    }
+    
+    .policies__li{
+        margin-bottom: 0.75rem;
+        font-weight: 600;
+    }
+    
+    .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contact__main{
+        font-size: 1.75rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    .contact__text{
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        font-size: auto;
+    }
+    
+    .contact__btn{
+        margin-top: 0.5rem;
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+
+}
+
+/* xxl */
+@media (min-width: 1536px) {
+
+}

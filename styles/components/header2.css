@@ -1,0 +1,26 @@
+.header{
+    border-bottom: 2px solid var(--clr-dark);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__link{
+    color: var(--clr-dark);
+    padding-bottom: 8px;
+}
+
+.header__link::after{
+    background: var(--clr-dark);
+}
+
+.header__sun{
+    display: none;
+    border: 2px solid var(--clr-dark);
+    color: var(--clr-dark);
+}
+
+.header__sun:hover{
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+}
